@@ -16,17 +16,7 @@
 ## 组织结构
 
 ``` lua
-mqingtianhao
-├── cartoon -- 动漫区
-├── css -- 主页CSS代码
-├── documentary -- SpringSecurity封装公用模块
-├── footer -- 后台商城管理系统接口
-├── images -- 基于Elasticsearch的商品搜索系统
-├── js -- 前台商城系统接口
-├── login -- 前台商城系统接口
-├── movie -- 前台商城系统接口
-├── teleplay -- 前台商城系统接口
-└── login -- 框架搭建时的测试代码
+
 ```
 
 ## 开发环境
