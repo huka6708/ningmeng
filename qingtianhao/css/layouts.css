@@ -1,0 +1,510 @@
+/* 整体 */
+.body-box-all{
+	/* 网页背景设置 */
+	/* background: url(../images/bg1.jpg); */
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+/*置顶开始*/
+.top-zd {
+	position: fixed;
+	width: 40px;
+	height: 90px;
+	bottom: 50px;
+	right: 10px;
+	border-right-color: darkred;
+	background-color: #F8B500;
+	text-align: center;
+	margin: 5px 5px 5px 5px;
+	/* background: url(images/body/zd.png) repeat  center; */
+}
+
+.top-zd a {
+	color: black;
+}
+/*置顶结束*/
+
+/* 明暗模式切换开始 */
+
+/* 明暗模式切换结束 */
+
+/* 页眉开始 */
+.logo-line {
+	float: left;
+	display: inline;
+}
+
+a {
+	text-decoration: none;
+	outline: none
+}
+
+span,
+a {
+	font-style: normal;
+	display: inline-block;
+}
+
+.ym {
+	width: 1162px;
+	margin: 0 auto;
+}
+
+.as {
+	line-height: 0
+}
+
+.red-font a:hover,
+.red-font .active {
+	/* 鼠标放上去变颜色，底部出现红条 */
+	border-bottom: 4px solid #F8B500;
+	color: #F8B500;
+}
+
+.border-btn {
+	border-bottom: 2px solid #F8B500;
+}
+
+.l {
+	float: left;
+	/* 搜索居右 */
+	display: inline;
+}
+
+.dl {
+	float: right;
+	/* 登录居右 */
+	display: inline;
+}
+
+.index-top {
+	width: 100%;
+	height: 78px;
+	background-color: white;
+}
+
+.index-top .index-top-main {
+	line-height: 60px;
+}
+
+.index-top .index-top-main .logo {
+	padding-top: 20px;
+	margin-right: 48px;
+	height: 36px;
+}
+
+.index-top .index-top-main .top-nav {
+	margin-right: 5px;
+}
+
+.index-top .index-top-main .top-nav a {
+	margin-right: 9px;
+	padding: 0 6px 0 6px;
+	line-height: 38px;
+}
+
+.top-nav ul li {
+	float: left;
+}
+
+.top-nav ul li ul {
+	/* 二级栏目 */
+	width: 53px;
+	height: 22px;
+	display: none;
+	/*设置初始为不显示*/
+	position: absolute;
+	z-index: 4;
+}
+
+.top-nav ul li:hover ul {
+	display: block;
+}
+
+.index-top .index-top-login {
+	/*登录注册*/
+	width: 92px;
+	height: 32px;
+	line-height: 32px;
+	background: #f3f3f3;
+	margin: 20px 0 0 15px;
+	display: inline-block;
+}
+
+.index-top .index-top-main .search-bg {
+	border: 1px solid #ccc;
+	width: 216px;
+	height: 30px;
+	margin-top: 20px;
+	border-radius: 20px;
+}
+
+.index-top .index-top-main .search-bg input {
+	height: 30px;
+	vertical-align: top;
+	margin: 0 0 0 15px;
+	width: 161px;
+	background: transparent;
+}
+
+/* 页眉结束 */
+/*menu*/
+
+/* body*/
+/* 主体的上部分 */
+.body-box-all {
+	width: 100%;
+	height: 100%;
+	background-color: #F8F9FA;
+}
+
+.body-box-container {
+	position: relative;
+	margin: 0 auto;
+	max-width: 1200px;
+	height: 3570px;
+	background-color: #99403a;
+	/* text-align: center; */
+	background: center;
+}
+
+.body-box-top {
+	width: 1170px;
+	height: 400px;
+	float: left;
+	margin: 15px 15px 15px 15px;
+}
+
+.body-box-left {
+	background-color: grey;
+	width: 800px;
+	height: 400px;
+	float: left;
+}
+
+/*轮播图开始*/
+.banner-container {
+	width: 800px;
+	height: 400px;
+	/*margin:1rem auto;*/
+	overflow: hidden;
+	/* 隐藏超出展示容器的内容 */
+	position: relative;
+	float: left;
+}
+
+.banner-container .banner-container-img {
+	width: 4000px;
+	/*让图片横向排列 */
+	height: 400px;
+	overflow: hidden;
+	position: absolute;
+	display: flex;
+	animation: run 20s ease infinite;
+}
+
+.banner-container .banner-container-img img {
+	width: 800px;
+	height: 100%;
+}
+
+/* 动画关键帧 */
+@keyframes run {
+
+	0%,
+	10% {
+		transform: translateX(0);
+	}
+
+	20%,
+	30% {
+		transform: translateX(-800px);
+	}
+
+	40%,
+	50% {
+		transform: translateX(-1600px);
+	}
+
+	60%,
+	70% {
+		transform: translateX(-2400px);
+	}
+
+	80%,
+	90% {
+		transform: translateX(-3200px);
+	}
+
+	100% {
+		transform: translateX(0);
+	}
+}
+
+/*轮播图结束*/
+
+/*标签开始*/
+.body-box-right {
+	background-color: #ffffff;
+	width: 370px;
+	height: 400px;
+	float: left;
+}
+
+.widget {
+	/* background-color: #aa0000; */
+	width: 360px;
+	height: 400px;
+	margin: 0 0 0 10px;
+}
+
+.label-header {
+	/* background-color: #ffaaff; */
+	width: 360px;
+	height: 40px;
+	float: left;
+}
+
+.label-header .label-header-title {
+	width: 340px;
+	height: 30px;
+	float: left;
+	margin: 10px 0 0 5px;
+}
+
+.label-header-title h3 {
+	margin-left: 20px;
+}
+
+.label-body {
+	width: 360px;
+	height: 300px;
+}
+
+.label-body .label-body-content {
+	/* background-color: #55aaff; */
+	width: 360px;
+	height: 360px;
+	float: left;
+	/* margin: 10px 0 0 10px; */
+}
+
+#c {
+
+	border: 0px solid black;
+	/* margin-top: 5px; */
+}
+
+td {
+	border: 0px solid black;
+	width: 55px;
+	height: 44px;
+	cursor: pointer;
+	border-radius: 9px;
+	background-color: #ffaa00;
+}
+
+.label-table {
+	text-align: center;
+	border-spacing: 25px;
+}
+
+.label a {
+	color: #050605;
+}
+
+.label a:hover {
+	color: darkred;
+}
+
+/*标签结束*/
+
+/* tab页开始 */
+.tab-wrapper{
+  position: relative;
+  width: 360px;
+  height: 60px;
+  background-color: #33344a;
+}
+.tab-wrapper .tab-radio{
+  display: none;
+}
+.tab-handler{
+  position: relative;
+  z-index: 2;
+  display: block;
+  float: left;
+  height: 60px;
+  padding: 0 25px;	/*tab页间隔*/
+  color: #717181;
+  font-size: 16px;
+  line-height: 60px;
+  transition: .3s;
+  transform: scale(.9);
+}
+.tab-radio:checked + .tab-handler{
+  color: #fff;
+  background-color: #F8B500;
+  transform: scale(1);
+}
+.tab-radio:checked + .tab-handler + .tab-content{
+  visibility: visible;
+  opacity: 1;
+  transform: scale(1);
+}
+.tab-wrapper .tab-content{
+  visibility: hidden;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 340px;
+  padding: 10px 10px 10px 10px;
+  color: #999;
+  font-size: 14px;
+  line-height: 1.618em;
+  background-color: #fff;
+  opacity: 0;
+  transition: transform .5s, opacity .7s;
+  transform: translateY(20px);
+}
+.tab-content-box{
+	width: 340px;
+	height: 310px;
+	/* background-color: #55ffff; */
+}
+.tab-content-box-l{
+	width: 340px;
+	height: 70px;
+	/* background-color: #ffff7f; */
+	margin: 10px 0px 10px 0px;
+	
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+.tab-content-box-img{
+	width: 140px;
+	height: 70px;
+	/* background-color: #ff55ff; */
+	float: left;
+}
+
+.tab-content-box-img img{
+	width: 100%;
+	/* 图片宽度设置为容器的100% */
+	height: 100%;
+	/* 高度自动调整以保持图片的宽高比 */
+	object-fit: fill;
+	display: block;
+}
+
+.tab-content-box-z{
+	width: 190px;
+	height: 70px;
+	/* background-color: #55aaff; */
+	float: right;
+	margin: 0px 0px 0px 10px;
+}
+.tab-content-box-z1{
+	width: 190px;
+	height: 20px;
+	/* background-color: #ffaa00; */
+	float: left;
+	margin: 2px 0px 2px 0px;
+}
+.tab-content-box-z1 a{
+	color:#050605;
+}
+.tab-content-box-z2{
+	width: 190px;
+	height: 20px;
+	/* background-color: #ff5500; */
+	float: left;
+	margin: 0px 0px 3px 0px;
+}
+
+/* tab页结束 */
+
+/* 主体的中间部分开始 */
+.time {
+	color: #ccc;
+}
+
+.sort-list {
+	background-color: #ffffff;
+	width: 1170px;
+	height: 750px;
+	float: left;
+	margin: 15px 15px 15px 15px;
+	border-radius:18px;
+}
+
+.card-header {
+	width: 1130px;
+	height: 38px;
+	float: left;
+	margin: 20px 20px 0 20px;
+}
+
+.card-header-left {
+	float: left;
+}
+
+.card-header-right {
+	float: right;
+}
+
+.title a {
+	color: #050605;
+}
+
+.card-body {
+	/* background-color: #550000; */
+	width: 1140px;
+	height: 672px;
+	float: left;
+	margin: 0 15px 0 15px;
+}
+
+.col {
+	/* background-color: #5555ff; */
+	width: 180px;
+	height: 336px;
+	float: left;
+	margin: 0 5px 0 5px;
+}
+
+.post-img {
+	background-color: #ccc;
+	width: 180px;
+	height: 260px;
+	overflow: hidden;
+}
+
+.post-img img {
+	width: 100%;
+	/* 图片宽度设置为容器的100% */
+	height: 100%;
+	/* 高度自动调整以保持图片的宽高比 */
+	object-fit: fill;
+	display: block;
+	transform: scale(1.2);
+
+}
+
+.post-body-all {
+	/* background-color: #333b55; */
+	width: 180px;
+	height: 56px;
+	margin: 10px 0 0 0;
+}
+
+/* 主体的中间部分结束 */
+.post-body-footer {
+	margin: 10px 0 0 0;
+}
+
+/* 网页加载动画开始 */
+
+
+/* 网页加载动画结束 */

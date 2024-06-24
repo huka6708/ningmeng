@@ -1,0 +1,75 @@
+.body-box-container-footer {
+	position: relative;
+	margin: 0 auto;
+	max-width: 1200px;
+	height: 910px;
+	background-color: #99403a;
+	background: center;
+}
+.sort-list-footer {
+	background-color: #ffffff;
+	width: 1170px;
+	height: 750px;
+	float: left;
+	margin: 15px 15px 15px 15px;
+	border-radius:18px;
+}
+.sort-choice-footer {
+	background-color: #ffffff;
+	width: 1170px;
+	height: 100px;
+	float: left;
+	margin: 15px 15px 0px 15px;
+	border-radius:18px;
+}
+.top-title-footer{
+	width: 250px;
+	height: 20px;
+	padding: 35px;
+	float: left;
+}
+.card-body-footer-top{
+	width: 1100px;
+	height: 150px;
+	float: left;
+	margin: 15px 35px 15px 35px;
+}
+.card-body-footer-top-e{
+	width: 1100px;
+	height: 50px;
+	float: left;
+	text-align:center;
+	margin: 15px 35px 15px 35px;
+}
+.card-body-footer{
+	width: 1100px;
+	height: 200px;
+	float: left;
+	margin: 15px 35px 15px 35px;
+}
+.card-body-footer-body{
+	width: 1100px;
+	height: 150px;
+	float: left;
+	margin: 15px 35px 15px 35px;
+}
+.footer-h{
+	width: 1100px;
+	height: 45px;
+	margin: 25px 0px 15px 0px;
+	position:relative;
+	display: block;
+}
+.footer-p{
+	width: 1100px;
+	height: 35px;
+	margin: 5px 0px 15px 0px;
+}
+.footer-p ul li{
+	height: 30px;
+	font-size:16px;
+}
+.footer-p p{
+	text-indent:2em;
+	font-size:18px;
+}

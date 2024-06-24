@@ -1,0 +1,118 @@
+.body-box-container-c{
+    position: relative;
+	margin: 0 auto;
+	max-width: 1200px;
+	height: 2490px;
+	background-color: #99403a;
+	background: center;
+}
+.body-box-container-d{
+    position: relative;
+	margin: 0 auto;
+	max-width: 1200px;
+	height: 1830px;
+	background-color: #99403a;
+	background: center;
+}
+.sort-list {
+	background-color: #ffffff;
+	width: 1170px;
+	height: 2210px;
+	float: left;
+	margin: 15px 15px 15px 15px;
+	border-radius:18px;
+}
+.sort-list-k{
+	background-color: #ffffff;
+	width: 1170px;
+	height: 1550px;
+	float: left;
+	margin: 15px 15px 15px 15px;
+	border-radius:18px;
+}
+.card-footer{
+    /* background-color: #892424;/ */
+    width: 1140px;
+	height: 100px;
+    float: left;
+}
+.footer-page{
+    /* background-color: #2e1264; */
+    width: 1140px;
+	height: 50px;
+    padding-top: 10px;
+}
+.footer-all{
+    /* background-color: #0b8554; */
+    width: 1140px;
+	height: 50px;
+    padding-top: 10px;
+}
+/* 分页开始 */
+.card-footer a{
+	color: #050605;
+}
+.card-footer a:hover{
+	color: #F8B500;
+}
+.page-box{/*分页*/
+	/* background-color: #cadc05; */
+    width: 750px;
+	height: 40px;
+	padding-left: 390px;
+	text-align:center;
+}
+.page-box-l{/*全部影片*/
+	/* background-color: #cadc05; */
+    width: 671px;
+	height: 40px;
+	padding-left: 469px;
+	text-align:center;
+}
+.page-m{
+	width: 70px;
+	height: 20px;
+	float: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align:center;
+	margin-right:7px;
+	overflow: hidden;
+
+	background: #eaedf1;
+	border-radius:20px;
+	display: inline-block;
+	position: relative;
+}
+.page-n{
+	width: 225px;
+	height: 20px;
+	float: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align:center;
+	margin-right:7px;
+	overflow: hidden;
+
+	background: #eaedf1;
+	border-radius:10px;
+	display: inline-block;
+	position: relative;
+}
+.page-l{
+	width: 40px;
+	height: 20px;
+	float: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align:center;
+	margin-right:7px;
+	overflow: hidden;
+
+	background: #eaedf1;
+	border-radius:30px;
+	display: inline-block;
+	position: relative;
+
+}
+/* 分页结束 */
